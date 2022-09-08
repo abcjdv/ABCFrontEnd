@@ -1,0 +1,273 @@
+/*=============================================================
+                           Main
+===============================================================*/
+
+.Main-page{
+    padding-top: 110px;
+    padding-bottom: 110px;
+    /* line-height: 22px; */
+    background-color: #262729;
+}
+.checkout-Main-page{
+    padding-top: 110px;
+    padding-bottom: 110px;
+    /* line-height: 22px; */
+    background-color: #262729;
+}
+@media (max-width: 991.98px) { 
+    .checkout-Main-page{
+        padding-top: 15px;
+    }
+ }
+
+.img-wrap {
+    width: 80px;
+    height: 80px;
+}
+
+.editbtn{
+    position: absolute;
+    right: 10.2%;
+}
+
+.img-wrap a img {
+    width: 80px;
+    height: 80px;
+}
+
+.Product-box {
+    border: 1px solid #686868;
+    background-color: black;
+}
+
+.Product-price {
+    line-height: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+
+.btn-Proceed {
+
+    width: 100%;
+}
+
+.btn-Proceed-inner {
+    color: white;
+    background-color: #E86669;
+}
+
+.fa-solid {
+    font-size: 12px;
+    color: #E86669;
+}
+
+.edit {
+    color: #E86669;
+    font-size: 14px;
+}
+
+.fa-trash-can {
+    font-size: 16px;
+}
+
+.can-can{
+    font-size: 1.1rem;
+}
+
+.current-price {
+    font-size: 17px;
+    color: #E86669;
+
+}
+
+.para-txt {
+    color: white;
+    font-weight: 600;
+}
+
+.btn-payment {
+    border: 2px solid #E86669;
+    background-color: #E86669;
+    color: white;
+}
+
+.btn-payment:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(28 28 36 / 25%)
+}
+
+.origin-price {
+    font-size: 14px;
+}
+
+.promotion-ratio {
+    font-size: 14px;
+}
+
+.form-check-input:checked {
+    background-color: #E86669;
+    border-color: #E86669;
+}
+
+.form-check-input:focus {
+    border-color: #E86669;
+    outline: 0px;
+    box-shadow: rgb(232 102 105 / 25%) 0px 0px 0px 0.25rem;
+}
+
+#stripe {
+    /* font-size: 16px; */
+    font-weight: 700;
+}
+
+#paynow {
+    font-weight: 700;
+}
+
+
+.hide {
+    display: none;
+
+}
+
+select {
+    border: 2px solid #E86669;
+    border-radius: 3px;
+}
+
+.show {
+    display: block;
+}
+
+
+.pick {
+    font-weight: 700;
+}
+
+.ninja {
+    font-weight: 700;
+
+}
+
+
+.Pick_input {
+    background-color: transparent;
+    color: white;
+}
+
+.Pick_input option {
+    background-color: black;
+    color: white;
+}
+
+.Pick_input option:hover {
+    background-color: #E86669;
+    color: white;
+}
+
+.Pick_input:focus {
+    border-color: #E86669;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(232 102 105 / 25%);
+}
+
+.btn-add {
+    border: 2px solid #E86669;
+    background-color: #E86669;
+    color: white;
+}
+
+
+.locker-name {
+    font-size: 13px;
+    margin: 0;
+}
+
+
+/* .Address-info-item .fa-location-dot{
+    position: absolute;
+    top: 31%;
+   
+} */
+
+
+
+.fa-phone,
+.fa-location-dot,
+.fa-envelope,
+.fa-user {
+    font-size: 0.9rem;
+}
+
+
+/* .fa-envelope{
+    position: absolute;
+    top: 40%;
+} */
+
+/* .fa-user{
+    position: absolute;
+    top:32% ;
+} */
+
+.buyer_field {
+    border-bottom: 1px solid #686868 !important;
+    border-radius: 1px;
+}
+
+.buyer_field:focus {
+    box-shadow: none;
+}
+
+.del {
+    position: relative;
+}
+
+.Checkout-form-spinner {
+    position: absolute;
+    top: 70%;
+    left: 12%;
+}
+
+.ALert-msg:hover{
+    color: #E86669;
+}
+
+.fa-plus, .fa-minus{
+    font-size: 1rem;
+    cursor: pointer;
+    border: 1px solid #686868;
+
+}
+
+
+.fa-plus:hover, .fa-minus:hover{
+   background-color: #E86669;
+   color: white;
+
+}
+
+
+
+@media (max-width: 991.98px) {
+    .Main-page {
+        padding-top: 0px;
+        padding-bottom: 110px;
+        /* line-height: 22px; */
+        background-color: #262729;
+    }
+    .recent-orders-input{
+        width: 98.3%;
+    }
+
+    .recent-orders-input1{
+        width: 98.6%;
+    }
+
+}

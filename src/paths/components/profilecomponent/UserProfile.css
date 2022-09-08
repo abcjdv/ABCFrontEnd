@@ -1,0 +1,205 @@
+/*=============================================================
+                           User-Profile
+===============================================================*/
+
+.Personal_detail {
+    border: 1px solid white;
+}
+
+
+.Personal_detail h2,
+h6 {
+    font-weight: 700;
+}
+
+#Pro {
+    font-size: 17px;
+}
+
+.btn-outline-secondary {
+    color: white;
+    background-color: #E86669;
+    border-color: #E86669;
+}
+
+.btn-outline-secondary:hover {
+    color: black;
+    background-color: #E86669;
+    border-color: #E86669;
+}
+
+.btn-save {
+    color: white;
+    background-color: #E86669;
+    border-color: #E86669;
+}
+
+.input_bar:focus {
+    color: white;
+    background-color: transparent;
+    border-color: #E86669;
+    outline: 0;
+    box-shadow: rgb(232 102 105 / 25%) 0px 0px 0px 0.25rem;
+}
+
+#preview {
+
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.profilepic {
+    position: relative;
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #111;
+    border: 2px solid white;
+
+}
+
+.profilepic:hover .profilepic__content {
+    opacity: 1;
+}
+
+.profilepic:hover .profilepic__image {
+    opacity: .5;
+}
+
+.profilepic__image {
+    object-fit: cover;
+    opacity: 1;
+    transition: opacity .2s ease-in-out;
+}
+
+.profilepic__content {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0;
+    transition: opacity .2s ease-in-out;
+}
+
+.profilepic__icon {
+    color: white;
+    padding-bottom: 8px;
+}
+
+.profilepic__icon:hover {
+    color: #E86669;
+    padding-bottom: 8px;
+}
+
+.fas {
+    font-size: 20px;
+}
+
+.profilepic__text {
+    text-transform: uppercase;
+    font-size: 12px;
+    width: 50%;
+    text-align: center;
+
+}
+
+
+
+.profilepic__content>input {
+    display: none;
+}
+
+
+
+.btn-upload {
+    color: white;
+    background-color: #E86669;
+    border-color: #E86669;
+    font-size: 7px;
+}
+
+.btn-upload:focus {
+    box-shadow: none;
+}
+
+.profile-pic {
+    height: 113px;
+}
+
+.img-area {
+    right: 1%;
+    bottom: 21%;
+}
+
+.upload {
+    position: absolute;
+    top: 16%;
+    left: 15%;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
+input[type="date"] {
+    position: relative;
+    padding: 6px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: transparent;
+    background: none;
+    z-index: 1;
+}
+
+input[type="date"]:before {
+    color: transparent;
+    background: none;
+    display: block;
+    font-family: 'FontAwesome';
+    content: '\f133';
+    /* This is the calendar icon in FontAwesome */
+    width: 15px;
+    height: 20px;
+    position: absolute;
+    top: 7px;
+    right: 6px;
+    color: #fff;
+}
+
+@media (max-width: 767.98px) {
+    /* .img-area{
+        left: 61%;
+    } */
+
+}
+
+@media (max-width: 575.98px) {
+
+    .img-area {
+        bottom: 1%;
+    }
+
+
+    .profilepic {
+
+        width: 115px;
+        height: 115px;
+
+    }
+
+    
+
+}
+
+/* ////////////////////End User-Profile///////////////////// */

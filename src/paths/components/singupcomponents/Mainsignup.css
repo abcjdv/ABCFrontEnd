@@ -1,0 +1,57 @@
+.spinner-set {
+    position: absolute;
+    right: 6rem;
+    top: 18%;
+    color: #f8f9fa;
+    /* size: 20; */
+    /* font-size: 4rem; */
+    /* transform: scale(1); */
+
+    /* font-size: 22px; */
+}
+
+
+/* .spinner2-set {
+    position: absolute;
+    right: 6rem;
+    top: 18%;
+    color: black;
+} */
+
+.scroll_form {
+    scroll-behavior: smooth !important;
+}
+
+
+.btn-next {
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+
+.btn-next:hover,
+.btn-next:focus {
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+
+.forms-container {
+    margin-top: 5rem;
+}
+
+.PhoneInputInput {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 0.25rem;
+    color: white;
+    padding: 6px 12px;
+}
+
+/* .PhoneInputInput--focus {
+    border: none;
+} */
+
+
+/* .PhoneInputInput:focus {
+    background-color: transparent !important;
+    border: none !important;
+} */
